@@ -40,7 +40,7 @@ bot.onText(/\/start/, (msg) => {
 Нажмите кнопку ниже, чтобы открыть панель управления:`;
 
   // ЗАМЕНИТЕ НА ВАШ АКТУАЛЬНЫЙ URL ИЗ LOCALHOST.RUN!
-  const webAppUrl = 'https://2c939cbc718120.lhr.life';
+  const webAppUrl = 'https://8f32958948cd43.lhr.life';
 
   // Отправляем сообщение с кнопкой, открывающей Mini App
   bot.sendMessage(chatId, welcomeText, {
@@ -78,6 +78,6 @@ app.listen(PORT, () => {
   console.log(`✅ Сервер SalonHelper запущен на порту ${PORT}`);
   console.log(`👉 Локальная проверка: http://localhost:${PORT}`);
   console.log(`🤖 Бот готов к работе в Telegram`);
-  console.log(`🌐 Внешний URL: https://2c939cbc718120.lhr.life`);
+  console.log(`🌐 Внешний URL: https://8f32958948cd43.lhr.life`);
   console.log(`✨ ======================================== ✨\n`);
 });

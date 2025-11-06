@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+npm-debug.log*
+
+# environment variables
+.env
+.env.local
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
